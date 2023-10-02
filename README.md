@@ -9,16 +9,20 @@ To get started with this project, you'll need to set up both the backend and fro
 ### Backend
 
 1. Navigate to the `backend` directory.
+   
 2. Install the required dependencies using npm:
    ```bash
    npm install
+   
 3. Start the backend server by running:
    ```bash
     node App.js
   The backend server will run on port 9000.
+  
 4. Navigate to the frontend directory.
   Install the required dependencies using npm:
-   ```node App.```.
+   ```node App.```
+   
 5. Start the frontend development server by running:
   ```npm run dev```
   The frontend server will run on port 3000.
