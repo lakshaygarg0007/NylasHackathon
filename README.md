@@ -28,6 +28,11 @@ To get started with this project, you'll need to set up both the backend and fro
   ```npm run dev```
   The frontend server will run on port 3000.
 
+Important FILES (LOGIC)
+1) /frontend/src/nylas_speech_recognition.js
+2) /backend/src/App.js
+   
+
 Usage.
 Here's how you can use VoiceCal AI:
 
