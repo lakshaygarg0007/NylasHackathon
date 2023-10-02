@@ -18,12 +18,12 @@ To get started with this project, you'll need to set up both the backend and fro
   The backend server will run on port 9000.
 4. Navigate to the frontend directory.
   Install the required dependencies using npm:
-   ```node App.js```
+   ```node App.```.
 5. Start the frontend development server by running:
   ```npm run dev```
   The frontend server will run on port 3000.
 
-Usage
+Usage.
 Here's how you can use VoiceCal AI:
 
 Visit the frontend in your web browser at http://localhost:3000.
