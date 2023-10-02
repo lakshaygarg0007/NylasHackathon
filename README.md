@@ -21,9 +21,10 @@ To get started with this project, you'll need to set up both the backend and fro
   
 4. Navigate to the frontend directory.
   Install the required dependencies using npm:
-   ```node App.```
+   ```npm install.```
    
 5. Start the frontend development server by running:
+   
   ```npm run dev```
   The frontend server will run on port 3000.
 
@@ -31,7 +32,9 @@ Usage.
 Here's how you can use VoiceCal AI:
 
 Visit the frontend in your web browser at http://localhost:3000.
+
 Interact with the voice-controlled calendar management system.
+
 Enjoy a seamless and fun way to manage your schedule!
 
 Contact
