@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (result.toLowerCase().includes('hello')) {
             speakText(welcomeText);
         } if (result.toLowerCase().includes("today's events") || result.toLowerCase().includes("two days events")) {
-            fetch('http://192.168.29.13:9000/read-events')
+            fetch('localhost:9000/read-events')
                 .then(response => response.json())
                 .then(data => {
                     console.log('Today\'s Events:', data);
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log('Event Date:', eventDate);
                 const momentDate = moment(eventDate, 'D MMMM');
                 const formattedDate = momentDate.format('YYYY-MM-DD');
-                fetch('http://192.168.29.13:9000/create-event', {
+                fetch('localhost:9000/create-event', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
